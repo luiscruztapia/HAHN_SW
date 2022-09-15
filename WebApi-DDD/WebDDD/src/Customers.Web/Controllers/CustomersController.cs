@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Customers.Domain.Interfaces;
 using Customers.Domain.Models;
+using Customers.Infra.Repositories;
 using Customers.Web.DTOs;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,22 +11,22 @@ namespace Customers.Web.Controllers
     [Route("api/[controller]")]
     public class CustomersController : Controller
     {
-        private readonly CustomerService _contatoService;
-        private readonly IRepository<Customer> _contatoRepository;
+        private readonly CustomerService _customerService;
+        private readonly IRepository<Customer> _customerRepository;
 
-        public CustomersController(CustomerService contatoService,
-            IRepository<Customer> contatoRepository)
+        public CustomersController(CustomerService customerService,
+            IRepository<Customer> customerRepository)
         {
-            _contatoService = contatoService;
-            _contatoRepository = contatoRepository;
+            _customerService = customerService;
+            _customerRepository = customerRepository;
         }
 
          [HttpGet]
          public IEnumerable<CustomerDTO> GetCustomers()
-         {
-             var contatos = _contatoRepository.GetAll();
+        {
+             var customers = _customerRepository.GetAll();
             
-            var resultado = contatos.Select(c => new CustomerDTO{ Id = c.Id, Nome = c.Nome, Email= c.Email });
+            var resultado = customers.Select(c => new CustomerDTO{ Id = c.Id, Nome = c.Nome, Email= c.Email });
 
             return resultado;
          }
@@ -34,7 +35,7 @@ namespace Customers.Web.Controllers
          [HttpGet("{id}")]
          public  ActionResult<Customer> GetCustomer(int id)
          {
-             var contato =  _contatoRepository.GetById(id);
+             var contato = _customerRepository.GetById(id);
              if (contato == null)
              {
                  return NotFound(new { message = $"Customer de id={id} não encontrado" });

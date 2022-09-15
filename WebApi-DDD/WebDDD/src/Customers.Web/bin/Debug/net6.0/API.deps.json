@@ -8,8 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "API/1.0.0": {
         "dependencies": {
-          "Customers.Application": "1.0.0",
           "Customers.Domain": "1.0.0",
+          "Customers.Infra": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "6.0.9",
           "Swashbuckle.AspNetCore": "6.4.0"
         },
@@ -476,15 +476,6 @@
           }
         }
       },
-      "Customers.Application/1.0.0": {
-        "dependencies": {
-          "Customers.Domain": "1.0.0",
-          "Customers.Infra": "1.0.0"
-        },
-        "runtime": {
-          "Customers.Application.dll": {}
-        }
-      },
       "Customers.Domain/1.0.0": {
         "runtime": {
           "Customers.Domain.dll": {}
@@ -842,11 +833,6 @@
       "sha512": "sha512-CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
-    },
-    "Customers.Application/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     },
     "Customers.Domain/1.0.0": {
       "type": "project",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WnlkNhrfzNV1nvIgIUcJkUQ48oHF+rgG6CCKFvYSnOpGdSQngZfEEF5PPJov7ZL42t3QCfPZQIcv4Rl42oyhWA==",
+  "dgSpecHash": "aGtPe7tH6QLsDdvjLWaobJB13ygZrRb30CNz26L1ExHY1oNxRE8jWnNOjZXr+rv3uPBEukE3Nu+lSnVUmE9uEA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\njt01160\\MyRepo\\WebApi-DDD\\WebDDD\\src\\Customers.Web\\API.csproj",
+  "projectFilePath": "C:\\Users\\njt01160\\HAHN_SW\\WebApi-DDD\\WebDDD\\src\\Customers.Web\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\njt01160\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\njt01160\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

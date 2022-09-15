@@ -5,7 +5,7 @@ using Customers.Infra.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Customers.Application.DI {
+namespace Customers.Web.DI {
     public class Initializer {
         public static void Configure (IServiceCollection services, string conection) 
         {

@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Customers.Application.DI;
+//using Customers.Application.DI;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -27,7 +27,7 @@ namespace Customers.Web
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            Initializer.Configure(services, Configuration.GetConnectionString("DefaultConnection"));
+            DI.Initializer.Configure(services, Configuration.GetConnectionString("DefaultConnection"));
             services.AddControllers();
 
             services.AddSwaggerGen(c =>

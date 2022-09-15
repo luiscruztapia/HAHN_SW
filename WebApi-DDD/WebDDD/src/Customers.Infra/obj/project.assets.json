@@ -2033,11 +2033,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\njt01160\\MyRepo\\WebApi-DDD\\WebDDD\\src\\Customers.Infra\\Customers.Infra.csproj",
+      "projectUniqueName": "C:\\Users\\njt01160\\HAHN_SW\\WebApi-DDD\\WebDDD\\src\\Customers.Infra\\Customers.Infra.csproj",
       "projectName": "Customers.Infra",
-      "projectPath": "C:\\Users\\njt01160\\MyRepo\\WebApi-DDD\\WebDDD\\src\\Customers.Infra\\Customers.Infra.csproj",
+      "projectPath": "C:\\Users\\njt01160\\HAHN_SW\\WebApi-DDD\\WebDDD\\src\\Customers.Infra\\Customers.Infra.csproj",
       "packagesPath": "C:\\Users\\njt01160\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\njt01160\\MyRepo\\WebApi-DDD\\WebDDD\\src\\Customers.Infra\\obj\\",
+      "outputPath": "C:\\Users\\njt01160\\HAHN_SW\\WebApi-DDD\\WebDDD\\src\\Customers.Infra\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\njt01160\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2054,8 +2054,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\njt01160\\MyRepo\\WebApi-DDD\\WebDDD\\src\\Customers.Domain\\Customers.Domain.csproj": {
-              "projectPath": "C:\\Users\\njt01160\\MyRepo\\WebApi-DDD\\WebDDD\\src\\Customers.Domain\\Customers.Domain.csproj"
+            "C:\\Users\\njt01160\\HAHN_SW\\WebApi-DDD\\WebDDD\\src\\Customers.Domain\\Customers.Domain.csproj": {
+              "projectPath": "C:\\Users\\njt01160\\HAHN_SW\\WebApi-DDD\\WebDDD\\src\\Customers.Domain\\Customers.Domain.csproj"
             }
           }
         }
